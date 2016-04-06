@@ -379,7 +379,7 @@ end
 
 Complete the first set of exercises in [this repo](https://github.com/ATL-WDI-Exercises/ruby-basics-exercises).
 
-If you finish this section early, feel free to try out one of the [Additional Exercises](https://github.com/ga-wdi-lessons/ruby-intro#additional-practice) located at the bottom of the lesson plan.
+If you finish this section early, feel free to try out one of the [Additional Exercises](https://github.com/ATL-WDI-Curriculum/ruby-intro#additional-practice) located at the bottom of the lesson plan.
 
 ### Exercise Review (10 minutes / 1:05)
 
