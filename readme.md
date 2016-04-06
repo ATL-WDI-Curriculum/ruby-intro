@@ -375,9 +375,26 @@ end
 
 > Ruby also has `case`, the equivalent to Javascript's `switch` statement. If that's more your style, read about it [here](http://www.skorks.com/2009/08/how-a-ruby-case-statement-works-and-what-you-can-do-with-it/).  
 
-## Data Type Exercises (15 minutes / 0:55)
+## Independent Practice - Data Type Exercises (15 minutes / 0:55)
 
 Complete the first set of exercises in [this repo](https://github.com/ATL-WDI-Exercises/ruby-basics-exercises).
+
+## Independent Practice - Part 2 (15 mins)
+
+Now you try it!
+
+Use what you just learned about Ruby data types, methods and string interpolation; hop in ```irb```; and get through as many of the following questions as you can:
+
+- Declare a constant that contains your name
+- Declare a variable that contains your age
+- Write a method that accepts two parameters: an age and a name
+  - This method should interpolate the age and name into a string that says, "Hi there, my name is _____ and I'm ________"; print the string to the screen
+- Call the method
+
+- Create an array ```my_friends``` and add the names of your best friends to the array
+- Write a method that accepts one parameter: ```list_of_friends```
+  - Using string interpolation, write some code in this method that will print out a list of your friends as a string. The output should be as follows: "Hi there, these are my friends: __________".
+- Call the method, passing in ```my_friends```
 
 If you finish this section early, feel free to try out one of the [Additional Exercises](https://github.com/ATL-WDI-Curriculum/ruby-intro#additional-practice) located at the bottom of the lesson plan.
 
