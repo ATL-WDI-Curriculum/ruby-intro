@@ -377,7 +377,7 @@ end
 
 ## Data Type Exercises (15 minutes / 0:55)
 
-Complete the first set of exercises in [this repo](https://github.com/ga-wdi-exercises/ruby-basics-exercises).
+Complete the first set of exercises in [this repo](https://github.com/ATL-WDI-Exercises/ruby-basics-exercises).
 
 If you finish this section early, feel free to try out one of the [Additional Exercises](https://github.com/ga-wdi-lessons/ruby-intro#additional-practice) located at the bottom of the lesson plan.
 
