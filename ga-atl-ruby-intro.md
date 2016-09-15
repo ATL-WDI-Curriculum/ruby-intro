@@ -74,7 +74,7 @@ Ruby files end with the extension `.rb`. There are two ways to run a ruby script
 
 **WE DO:**
 
-Let's practice running our first Ruby script using a quick, goofy example:
+Let's practice running our first Ruby script using a quick, stylish example:
 
 1. Open your Terminal and `cd` to your Desktop.
 2. `touch script.rb`
@@ -329,18 +329,9 @@ SOME_CONSTANT = "awesome"
 
 We can use a constant anywhere in a Ruby application – inside a method, outside a method, across objects & a whole app. But keep in mind, it's meant to be defined _only once_, so we'll use it for things like storing application settings, or other stuff we don't intend to change.
 
-## Ruby & ruby - Codealong (10 mins)
+## Ruby Codealong (10 mins)
 
-Until now, we have been running and debugging our HTML, CSS and JavaScript files using the browser. However, when using Ruby, we run our code using the command-line Ruby interpreter called ruby (with a lowercase 'r'). But don't worry, the process of writing our code and checking for errors is exactly the same!
-
-So, let's create our first Ruby file and run it with ruby. First, let's create a new `.rb` file and open it with Sublime:
-
-```bash
-touch my_first_ruby_file.rb
-subl .
-```
-
-Now, inside this file let's add:
+Let's do a code along in Repl.it. Inside this file let's add:
 
 ```ruby
 puts "Hello, I am running Ruby with ruby!"
@@ -348,20 +339,6 @@ puts "Hello, I am running Ruby with ruby!"
 
 **Pro Tip:** `puts` stands for "put string." Despite being slightly different, at this point you can think of `puts` as similar to `console.log`.
 
-Finally, run the file using:
-
-```bash
-ruby my_first_ruby_file.rb
-```
-
-**Pro Tip:** If you're already in `irb` environment you can run a file this way:
-
-```ruby
-load 'my_first_ruby_file.rb' 
-#don't forget to put the file name is quotes
-```
-
-**Pro Tip:** `gets` stands for "get string." Despite being slightly different, at this point you can think of `gets` as similar to `prompt`.
 
 Let's add some more code to our script:
 
@@ -374,7 +351,9 @@ name = gets
 puts name
 ```
 
-Awesome. Now type `name` into the prompt to check the variable's contents. You should see `"marc\n"`. What's happening here?
+**Pro Tip:** `gets` stands for "get string." Despite being slightly different, at this point you can think of `gets` as similar to `prompt` in Javascript.
+
+Awesome. Now type `name.length` into the prompt to check the variable's length. The return value should be `5`. Weird? Now type `name` into the prompt to check the variable's contents. You should see `"marc\n"`. What's happening here?
 
 A quirk of the Ruby language is that it captures the last keystroke (in the this case the `Enter` key) when using `gets`. To fix this, you'll want to add the method `.chomp` to the end of `gets`. `.chomp` will remove the last charcter from a String.
 
@@ -390,7 +369,7 @@ puts name
 ```
 
 
-Great! Now let's move on to some practice using IRB.
+Great! Now let's move on to some IRB practice.
 
 <br>
 
@@ -437,5 +416,6 @@ We'll get to see a lot more of Ruby over the next couple days, and the next coup
 ## Labtime
 - [Ruby Basics Practice - Exercise I - Data Types](https://github.com/ga-wdi-exercises/ruby-basics-exercises)
 - [Try Ruby](http://tryruby.org/levels/1/challenges/00)
-- [Search for Obi-Wan](https://github.com/ga-wdi-exercises/search_for_obi_wan)
+- [Search for Obi-Wan](https://github.com/ATL-WDI-Exercises/ruby_search_for_obi_wan/blob/master/README.md)
 - Review some differences between [Ruby and JavaScript](ruby-vs-javascript.md)
+- [Why's Poignant Guide To Ruby](http://poignant.guide/book/chapter-1.html)
